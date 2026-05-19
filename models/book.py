@@ -9,6 +9,7 @@ class Book:
     def book_id(self) -> int:
         return self._book_id
 
+
     @property
     def title(self) -> str:
         return self._title
